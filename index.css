@@ -1,0 +1,39 @@
+body{
+    background-image: url("https://www.unsell.design/wp-content/uploads/2020/05/f6f57aa2-abstract-yellow-background.jpg");
+    background-repeat: no-repeat;
+}
+.color1{
+    text-align: center;
+    color: rgb(255, 0, 255);    
+    text-align: center;
+    position: relative;
+    animation-name: safeeq;
+    animation-duration: 4s;
+}
+      
+    @keyframes safeeq {
+    0%   {left:0px; top:0px;}
+    25%  {left:400px; top:0px;}
+    50%  {left:400px; top:350px;}
+    75%  {left:0px; top:350px;}
+     100% {left:0px; top:0px;}
+}
+.color2{
+    text-align: center;
+    color: aqua;
+}
+.color3{
+    color: blueviolet;
+    text-align: right;
+    padding: 35px;
+}
+.color4{
+    text-align: right;
+}
+.color5{
+    color: rgb(255, 0, 255);  
+}
+.color6{
+    float: right;
+    padding: 20px;
+}
